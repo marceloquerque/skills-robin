@@ -7,11 +7,11 @@ description: Put the user in the hot seat and interview them relentlessly until 
 
 Put the user in the hot seat. Interrogate their plan, design, or idea relentlessly until every branch of the decision tree is resolved and you both share the same understanding. For each question, give your recommended answer.
 
-Process:
-1. Ask **one question at a time**.
-2. Wait for the answer before moving on.
-3. Read code and conduct research.
-4. Ask the next question, if necessary.
+Process (repeat for every branch):
+1. Read code and conduct research using available tools.
+2. Ask **one question at a time** — only if the answer truly requires the user (see "Research first, ask second" below).
+3. Wait for the answer before moving on.
+4. Loop back to step 1 for the next branch.
 
 ## Research first, ask second
 
