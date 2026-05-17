@@ -13,7 +13,7 @@ A small public repo of reusable agent skills, packaged for installation with [`n
   - **The Fail-Fast Audit** - find places where errors are silently swallowed, propose loud failures.
   - **The Retry Audit** - find spots that could fire twice and cause real damage (duplicate emails, double charges), propose idempotency fixes.
 
-- `setup-process` - Generate setup scripts/configs for AI agent worktrees and isolated environments across Cursor, Codex, and Conductor so agents start with the same dependencies, env files, and tool configs as the main repo.
+- `setup-process` - Generate setup scripts/configs for AI agent worktrees and isolated environments across Cursor, Codex, Conductor, and Claude Code so agents start with the same dependencies, env files, and tool configs as the main repo.
 
 - `shepherd` - Shepherd a GitHub pull request to merge-ready by polling status, addressing automatic reviewer feedback (Cubic, Bugbot etc.), and verifying the review cycle is truly clean. Stops at merge-ready and never merges without explicit human approval.
 
